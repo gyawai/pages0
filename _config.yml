@@ -2,7 +2,10 @@ domain: gyawai.github.io
 
 url: https://gyawai.github.io/pages0
 
-baseurl: /pages0/
+# production
+baseurl: /pages0
+
+# local dev
 # baseurl: /
 
 collections:
