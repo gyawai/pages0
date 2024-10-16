@@ -2,7 +2,7 @@ domain: gyawai.github.io
 
 url: https://gyawai.github.io
 
-baseurl: /pages0
+baseurl: /pages0/
 # baseurl: /
 
 collections:
