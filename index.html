@@ -1,9 +1,35 @@
 ---
 title: "this is the top page"
 num: 256
-layout: default
+layout: default-md
 ---
 
-    <h1>{{ "Hello!" | downcase }}</h1>
+# Hello
 
-    The `page.num` constant value defined in the front matter area is {{ page.num }}.
+## formatted contents
+
+- This contents is written in Markdown, while the layout is described in HTML and CSS,
+
+- with parameters defined in the front matter area.  
+  e.g. the `page.num` constant value defined in the front matter area is {{ page.num }}.
+
+
+## raw contents look like:
+
+```
+{% raw %}
+---
+title: "this is the top page"
+num: 256
+layout: default-md
+---
+
+# Hello
+
+- This contents is written in Markdown, while the layout is described in HTML and CSS,
+
+- with parameters defined in the front matter area.  
+  e.g. the `page.num` constant value defined in the front matter area is {{ page.num }}.
+{% endraw %}
+
+```
